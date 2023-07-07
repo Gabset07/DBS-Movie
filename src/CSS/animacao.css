@@ -1,0 +1,16 @@
+@keyframes brilho-Dragon {
+  0% {
+    color: var(--vermelho--fraco);
+    text-shadow: 0 0 12px var(--vermelho-medio), 0 0 50px var(--vermelho-forte);
+  }
+
+  50% {
+    color: var(--vermelho-medio);
+  }
+
+  100% {
+    color: var(--vermelho-forte)
+  }
+
+  ;
+}

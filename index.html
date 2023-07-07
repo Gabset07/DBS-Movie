@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/CSS/reset.css">
+    <link rel="stylesheet" href="./src/CSS/variaveis.css">
+    <link rel="stylesheet" href="./src/CSS/animacao.css">
+    <link rel="stylesheet" href="./src/CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <title>Projeto DBZ</title>
+</head>
+
+<body>
+
+    <div class="fundo-video">
+        <video class="video" loop autoplay muted>
+            <source src="src/Video/SSJ Goku _I Will not let you destroy my world_ (Blue-Ray HD).mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <header class="cabecalho">
+        <a href=""><img src="./src/Imagens/pngaaa.com-2402299.png" class="logo" alt=""></a>
+
+        <nav>
+            <ul class="painel">
+                <li><a href="#">Home</li></a>
+                <li><a href="#"> Detalhes</li></a>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div class="informacoes">
+            <img class="imagem-titulo" src="./src/Imagens/Imagem-titulo.png" alt="">
+            <p class="descricao">Dragon Ball Super segue as aventuras do protagonista Goku e seus amigos, depois de
+                derrotar Majin Boo e trazer paz para Terra mais uma vez. Goku encontra seres de longe mais poderosos e
+                atinge o poder de um deus.</p>
+
+            <button class="botao-trailer">Veja o trailer</button>
+        </div>
+
+        <img src="./src/Imagens/Ui goku.png" class="imagem-personagem" alt="">
+
+        <div class="modal aberto">
+            <div class="conteudo-modal">
+                <span class="fechar-modal">X</span>
+                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed?v=M-vz7jHEZNM"
+                    title="Trailer Oficial" frameboader="1"
+                    allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+
+
+        <aside class="menu-lateral">
+            <ul>
+                <li>
+                    <a href="#" target="_blank">
+                        <img src="src/Imagens/github.svg" alt="ícone GitHub" class="icone" />
+                    </a>
+                </li>
+                <li>
+                    <a href="#" target="_blank">
+                        <img src="src/Imagens/linkedin-in.svg" alt="ícone LinkedIn" class="icone" />
+                    </a>
+                </li>
+            </ul>
+        </aside>
+    </main>
+    <script src="./src/JS/script.js"></script>
+</body>
+
+</html>
